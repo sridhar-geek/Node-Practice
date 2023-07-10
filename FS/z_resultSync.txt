@@ -1,0 +1,2 @@
+Hello this is created using writeSync 
+Hello this is created using writeSync
