@@ -13,12 +13,13 @@
 
 
 const { createReadStream } = require("fs");
-
-// const stream = createReadStream("./Bigfile.txt");  // intialization
-// // event syntax "event listner" and callback
-// stream.on("data", (result)=>{
-//     console.log(result);
-// })
+/*
+const stream = createReadStream("./Bigfile.txt");  // intialization
+// event syntax "event listner" and callback
+stream.on("data", (result)=>{
+    console.log(result);
+})
+*/
 
 // by default chunk size is 64kb , it uses buffer to store data 
 // highWaterMark - control size
