@@ -1,7 +1,6 @@
 const express = require('express');
 const { products } = require ("../../data")
 const app = express();
-
 app.get("/", (req, res) =>{
    res.send(`<h1> This is HomePage </h1>
     <a href="api/products">Products</a>`)
